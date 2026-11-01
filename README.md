@@ -12,14 +12,15 @@ De instructie van deze leertaak staat in [WIKI](https://github.com/fdnd-task/all
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Voor deze opdracht begin ik de code opnieuw. Ik neem de feedback van de vorige sprint mee en bouw de site opnieuw op. Ik doe dat voor de opdrachtgever, maar ook voor mezelf: zo leer ik de juiste code te gebruiken en goed te begrijpen.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Semantische HTML 
+Voldoende contrast en een duidelijke focusrand.
+Kleuren en lettertype uit de huisstijl van de opdrachtgever.
 
 ## Bronnen
+MDN Web Docs
 
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).

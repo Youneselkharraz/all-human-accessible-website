@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veldverkenner – Bloemenveld Frankendael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header -->
+    <header>
+        <h1>Veldverkenner</h1>
+        <p>Ontdek het Bloemenveld Frankendael. Loop over de paden, ruik, voel en leer welke planten hier groeien.</p>
+    </header>
+
+    <!-- main: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main -->
+    <main>
+
+        <!-- section: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section -->
+        <section id="kaart">
+            <h2>Kaart</h2>
+
+            <!-- figure en figcaption: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure -->
+            <figure>
+                <img src="assets/bloemenveld.jpg" alt="Kaart van het bloemenveld met paden, waterpartijen en beplanting">
+                <figcaption>Kaart van Bloemenveld Frankendael</figcaption>
+            </figure>
+        </section>
+
+        <section id="zones">
+            <h2>Zones</h2>
+            <p>Het veld is verdeeld in zones. Kies een zone om te zien welke planten je daar vindt.</p>
+
+            <!-- ul en li: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul -->
+            <ul>
+                <li><a href="zuidzone.html">Zuidzone</a></li>
+                <li><a href="middenzone.html">Middenzone</a></li>
+                <li><a href="noordzone.html">Noordzone</a></li>
+            </ul>
+        </section>
+
+        <section id="ontdekken">
+            <h2>Wat kun je doen?</h2>
+
+            <!-- article: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article -->
+            <article>
+                <h3>Ruiken</h3>
+                <p>Welke planten kun je ruiken?</p>
+            </article>
+
+            <article>
+                <h3>Voelen</h3>
+                <p>Welke planten kun je voelen?</p>
+            </article>
+
+            <article>
+                <h3>Maken</h3>
+                <p>Welke planten kun je gebruiken om iets mee te maken?</p>
+            </article>
+
+            <article>
+                <h3>Bijzonder</h3>
+                <p>Welke planten hebben een bijzondere eigenschap of toepassing?</p>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- nav: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="#kaart">Veldverkenner</a>
+        <a href="nieuws.html">Nieuws</a>
+        <a href="collectie.html">Collectie</a>
+    </nav>
+
+</body>
+
+</html>
